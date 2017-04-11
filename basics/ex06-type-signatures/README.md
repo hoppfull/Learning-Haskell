@@ -1,1 +1,2 @@
-# ex06-type-signatures
+## ex06-type-signatures
+example of some basic type signatures
