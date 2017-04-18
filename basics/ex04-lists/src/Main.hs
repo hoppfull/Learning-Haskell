@@ -14,10 +14,11 @@ main = do
   putStrLn $ show $ elem 7 ls2 -- True
   putStrLn $ show $ elem 10 ls2 -- False
 
-ls0 = [1, 2, 3]   -- [1, 2, 3]
-ls1 = [1..10]      -- [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-ls2 = [1,3..10]    -- [1, 3, 5, 7, 9]
+ls0 = [1, 2, 3] -- [1, 2, 3]
 
+ls1 = [1 .. 10] -- [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+ls2 = [1,3 .. 10] -- [1, 3, 5, 7, 9]
 {-
   http://learnyouahaskell.com/starting-out#an-intro-to-lists
 -}

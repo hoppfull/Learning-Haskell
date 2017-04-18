@@ -26,10 +26,11 @@ function1 0 = "Zero"
 function1 1 = "One"
 function1 2 = "Two"
 function1 x = show $ x * 2
--- function1 is defined differently for different input
 
+-- function1 is defined differently for different input
 function2 :: Integer -> [Char]
-function2 x | x < 0 = "Negative"
+function2 x
+  | x < 0 = "Negative"
 function2 0 = "Zero"
 function2 _ = "Positive"
 
@@ -40,6 +41,8 @@ function3 x
   | otherwise = "Positive"
 
 function4 :: Integer -> [Char]
-function4 x = case x of 0 -> "Zero"
-                        1 -> "One"
-                        _ -> "Unknown"
+function4 x =
+  case x of
+    0 -> "Zero"
+    1 -> "One"
+    _ -> "Unknown"
