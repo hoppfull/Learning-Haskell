@@ -4,21 +4,21 @@ import Data.Ratio ((%))
 
 main :: IO ()
 main = do
-  putStrLn $ show int0 -- 5
-  putStrLn $ show int1 -- 5
-  putStrLn $ show float0 -- 3.14
-  putStrLn $ show float1 -- 3.14
-  putStrLn $ show int2 -- 5
-  putStrLn $ show float2 -- 3.14
-  putStrLn $ show float3 -- 5.0
-  putStrLn $ show float4 -- 5.0
-  putStrLn $ show int3 -- 3
-  putStrLn $ show int4 -- 3
-  putStrLn $ show int5 -- 4
-  putStrLn $ show rat0 -- 5 % 3
-  putStrLn $ show rat1 -- 11 % 2
-  putStrLn $ show rat2 -- 8 % 3
-  putStrLn $ show float5 -- 1.6666666
+  print int0 -- 5
+  print int1 -- 5
+  print float0 -- 3.14
+  print float1 -- 3.14
+  print int2 -- 5
+  print float2 -- 3.14
+  print float3 -- 5.0
+  print float4 -- 5.0
+  print int3 -- 3
+  print int4 -- 3
+  print int5 -- 4
+  print rat0 -- 5 % 3
+  print rat1 -- 11 % 2
+  print rat2 -- 8 % 3
+  print float5 -- 1.6666666
 
 int0 = 5 :: Int -- bounded integer (efficient)
 

@@ -21,26 +21,26 @@ main = do
   putStrLn $ function4 2 -- Unknown
   putStrLn $ function4 7 -- Unknown
 
-function1 :: Integer -> [Char]
+function1 :: Integer -> String
 function1 0 = "Zero"
 function1 1 = "One"
 function1 2 = "Two"
 function1 x = show $ x * 2
 
 -- function1 is defined differently for different input
-function2 :: Integer -> [Char]
+function2 :: Integer -> String
 function2 x
   | x < 0 = "Negative"
 function2 0 = "Zero"
 function2 _ = "Positive"
 
-function3 :: Integer -> [Char]
+function3 :: Integer -> String
 function3 x
   | x < 0 = "Negative"
   | x == 0 = "Zero"
   | otherwise = "Positive"
 
-function4 :: Integer -> [Char]
+function4 :: Integer -> String
 function4 x =
   case x of
     0 -> "Zero"

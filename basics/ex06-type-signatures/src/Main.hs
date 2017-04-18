@@ -2,11 +2,11 @@ module Main where
 
 main :: IO ()
 main = do
-  putStrLn $ show $ var -- 5
-  putStrLn $ show $ func0 7 -- 14
-  putStrLn $ show $ func1 3 2 -- 7
-  putStrLn $ show $ func2 11 17.5 -- 74.5
-  putStrLn $ show $ higherOrderFunction 42 func0 -- 56
+  print var -- 5
+  print $ func0 7 -- 14
+  print $ func1 3 2 -- 7
+  print $ func2 11 17.5 -- 74.5
+  print $ higherOrderFunction 42 func0 -- 56
 
 var :: Int -- type signature of variable x
 var = 5
@@ -37,7 +37,7 @@ func2 x y = x * 2 + y * 3
   floats, integers, fractionals or whatever. More on type classes later
 -}
 higherOrderFunction :: Int -> (Int -> Int) -> Int
-higherOrderFunction x f = x + (f 7)
+higherOrderFunction x f = x + f 7
 
 {-
   First parameter is an Int
@@ -47,8 +47,8 @@ higherOrderFunction x f = x + (f 7)
 ls0 :: [Int] -- type signature for a list of ints
 ls0 = [1 .. 10]
 
-name :: [Char] -- a string is just a list of Chars (characters)
+name :: String -- a string is just a list of Chars (characters)
 name = "Huey"
 
-pair :: (Int, [Char]) -- Type signature for a tuple, (a pair)
+pair :: (Int, String) -- Type signature for a tuple, (a pair)
 pair = (42, "The answer")

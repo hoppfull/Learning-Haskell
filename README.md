@@ -13,3 +13,10 @@ I'm using stack to create template projects and deal with building and running p
 0. Compile a project with "_stack build_" running from project root directory
 0. Run compiled project with "_stack exec name-of-project_" running from project root directory
 0. Load project in REPL with "_stack ghci_" running from project root directory
+
+Tools I'm using:
+* **stack** for managing libraries and projects
+* **Visual Studio Code**-editor with following extensions:
+    * **Haskell Syntax Highlighting**
+    * **Haskero** for IDE-experience
+    * **Hindent Format** for unified code style
