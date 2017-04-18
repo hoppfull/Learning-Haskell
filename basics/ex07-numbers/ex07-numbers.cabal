@@ -1,10 +1,6 @@
 name:                ex07-numbers
 version:             0.1.0.0
--- synopsis:
--- description:
 homepage:            https://github.com/hoppfull/ex07-numbers#readme
-license:             BSD3
--- license-file:     LICENSE
 author:              Björn Kihlberg
 maintainer:          hoppfull@gmail.com
 copyright:           hoppfull

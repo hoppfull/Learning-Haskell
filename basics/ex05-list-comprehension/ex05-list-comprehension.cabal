@@ -1,10 +1,6 @@
 name:                ex05-list-comprehension
 version:             0.1.0.0
--- synopsis:
--- description:
 homepage:            https://github.com/hoppfull/ex05-list-comprehension#readme
-license:             BSD3
-license-file:        LICENSE
 author:              Björn Kihlberg
 maintainer:          hoppfull@gmail.com
 copyright:           hoppfull
