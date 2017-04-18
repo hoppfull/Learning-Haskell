@@ -20,3 +20,4 @@ Tools I'm using:
     * **Haskell Syntax Highlighting**
     * **Haskero** for IDE-experience
     * **Hindent Format** for unified code style
+    * **haskell-linter** for help in simplifying code
